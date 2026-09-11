@@ -10,8 +10,7 @@
           href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
 
 
-    <!-- design -->
-    <link rel="stylesheet" href="https://cloudflare.com">
+    <!---->
 
     <!-- CSS -->
     <style>
@@ -53,8 +52,7 @@
         .carousel-item {
             display: none;
             width: 100%;
-            height: 400px;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
         }
 
@@ -64,15 +62,21 @@
 
             .carousel-item img {
                 width: 100%;
-                height: 400px;
+                height: 350px;
                 object-fit: cover;
                 border-radius: 8px;
+            }
+
+            .carousel-item .has-text-centered {
+                width: 100%;
+                text-align: center;
+                margin-top: 15px;
             }
 
         .carousel-prev,
         .carousel-next {
             position: absolute;
-            top: 50%;
+            top: 175px;
             transform: translateY(-50%);
             z-index: 2;
         }
@@ -84,6 +88,7 @@
         .carousel-next {
             right: 10px;
         }
+
     </style>
 </head>
 <body>
@@ -141,6 +146,10 @@
                     <figure class="image">
                         <img src="imagens/onigiri_e_mochi.jpeg" alt="Onigir e Mochi">
                     </figure>
+
+                    <div class="has-text-centered mt-3">
+                        <h3 class="title is-4">Onigiri e Mochi</h3>
+                    </div>
                 </div>
 
                 <!-- Imag 2 -->
@@ -148,6 +157,10 @@
                     <figure class="image">
                         <img src="imagens/onigiri.jpeg" alt="Onigiri">
                     </figure>
+
+                    <div class="has-text-centered mt-3">
+                        <h3 class="title is-4">Onigiri</h3>
+                    </div>
                 </div>
 
                 <!-- Imag3 -->
@@ -155,6 +168,10 @@
                     <figure class="image">
                         <img src="imagens/tofu.jpeg" alt="Tofu">
                     </figure>
+
+                    <div class="has-text-centered mt-3">
+                        <h3 class="title is-4">Tofu</h3>
+                    </div>
                 </div>
 
                 <!-- Imag4 -->
@@ -162,6 +179,10 @@
                     <figure class="image">
                         <img src="imagens/hellokitty.png" alt="Hello Kitty">
                     </figure>
+
+                    <div class="has-text-centered mt-3">
+                        <h3 class="title is-4">Hello Kitty</h3>
+                    </div>
                 </div>
 
                 <!-- Imag5 -->
@@ -169,6 +190,10 @@
                     <figure class="image">
                         <img src="imagens/marrie.jpg" alt="Marrie">
                     </figure>
+
+                    <div class="has-text-centered mt-3">
+                        <h3 class="title is-4">Marrie</h3>
+                    </div>
                 </div>
 
                 <!-- Imag6 -->
@@ -176,6 +201,9 @@
                     <figure class="image">
                         <img src="imagens/chococat.jpg" alt="Chococat">
                     </figure>
+                    <div class="has-text-centered mt-3">
+                        <h3 class="title is-4">Chococat</h3>
+                    </div>
                 </div>
 
                 <!-- Botões -->
